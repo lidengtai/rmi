@@ -7,8 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.google.gson.Gson;
-import com.sudu.rmi.client.RmiBootClient;
-import com.sudu.rmi.common.IUserService;
+import com.taylor.rmi.client.RmiBootClient;
+import com.taylor.rmi.common.IUserService;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,6 +25,6 @@ public class RmiTest {
 	
 	@Test
 	public void getUser(){
-		log.info("get user{}",gson.toJson(userService.getUserByName("admin")));
+//		log.info("get user{}",gson.toJson(userService.getUserByName("admin")));
 	}
 }

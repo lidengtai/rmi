@@ -4,8 +4,8 @@
   <artifactId>rmi-server</artifactId>
   
   <parent>
-    <groupId>sudu-rmi</groupId>
-    <artifactId>sudu-rmi</artifactId>
+    <groupId>rmi</groupId>
+    <artifactId>rmi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
@@ -20,7 +20,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
         <dependency>
-            <groupId>sudu-rmi-common</groupId>
+            <groupId>rmi-common</groupId>
             <artifactId>rmi-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
